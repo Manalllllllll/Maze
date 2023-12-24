@@ -15,6 +15,9 @@
 		B5208AD12B3317540012F790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5208ACF2B3317540012F790 /* Main.storyboard */; };
 		B5208AD32B3317550012F790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5208AD22B3317550012F790 /* Assets.xcassets */; };
 		B5208AD62B3317550012F790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5208AD42B3317550012F790 /* LaunchScreen.storyboard */; };
+		B5208ADD2B3323110012F790 /* tree.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5208ADC2B3323110012F790 /* tree.sks */; };
+		B5208ADF2B345C2C0012F790 /* ezgif.com-animated-gif-maker.gif in Resources */ = {isa = PBXBuildFile; fileRef = B5208ADE2B345C2C0012F790 /* ezgif.com-animated-gif-maker.gif */; };
+		B5208AE12B345C7C0012F790 /* butterflyGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5208AE02B345C7C0012F790 /* butterflyGIF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		B5208AD02B3317540012F790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5208AD22B3317550012F790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5208AD52B3317550012F790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5208ADC2B3323110012F790 /* tree.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = tree.sks; path = Maze/tree.sks; sourceTree = SOURCE_ROOT; };
+		B5208ADE2B345C2C0012F790 /* ezgif.com-animated-gif-maker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "ezgif.com-animated-gif-maker.gif"; path = "../../../Downloads/ezgif.com-animated-gif-maker.gif"; sourceTree = "<group>"; };
+		B5208AE02B345C7C0012F790 /* butterflyGIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butterflyGIF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,7 @@
 		B5208AB92B3317540012F790 = {
 			isa = PBXGroup;
 			children = (
+				B5208AE02B345C7C0012F790 /* butterflyGIF.swift */,
 				B5208AC42B3317540012F790 /* Maze */,
 				B5208AC32B3317540012F790 /* Products */,
 			);
@@ -64,8 +71,10 @@
 				B5208AC92B3317540012F790 /* Actions.sks */,
 				B5208ACB2B3317540012F790 /* GameScene.swift */,
 				B5208ACD2B3317540012F790 /* GameViewController.swift */,
+				B5208ADE2B345C2C0012F790 /* ezgif.com-animated-gif-maker.gif */,
 				B5208ACF2B3317540012F790 /* Main.storyboard */,
 				B5208AD22B3317550012F790 /* Assets.xcassets */,
+				B5208ADC2B3323110012F790 /* tree.sks */,
 				B5208AD42B3317550012F790 /* LaunchScreen.storyboard */,
 			);
 			path = Maze;
@@ -134,6 +143,8 @@
 				B5208AD32B3317550012F790 /* Assets.xcassets in Resources */,
 				B5208AD62B3317550012F790 /* LaunchScreen.storyboard in Resources */,
 				B5208ACA2B3317540012F790 /* Actions.sks in Resources */,
+				B5208ADD2B3323110012F790 /* tree.sks in Resources */,
+				B5208ADF2B345C2C0012F790 /* ezgif.com-animated-gif-maker.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5208AE12B345C7C0012F790 /* butterflyGIF.swift in Sources */,
 				B5208ACC2B3317540012F790 /* GameScene.swift in Sources */,
 				B5208ACE2B3317540012F790 /* GameViewController.swift in Sources */,
 				B5208AC62B3317540012F790 /* AppDelegate.swift in Sources */,
